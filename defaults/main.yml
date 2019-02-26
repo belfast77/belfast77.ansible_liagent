@@ -1,0 +1,27 @@
+---
+# defaults file for belfast77.ansible_liagent
+liagent_config_file: None
+liagent_srv_hostname: None
+liagent_proto: 'cfapi'
+liagent_port: 9543
+liagent_ssl: 'yes'
+liagent_ssl_ca_path: None
+liagent_reconnect: None
+liagent_central_config: 'no' 
+liagent_debug_level: None
+liagent_stats_period: None
+liagent_smart_stats: 'no'
+liagent_max_disk_buffer: None
+liagent_logtype: None
+liagent_directory: None
+liagent_include: None
+liagent_package_type: None
+liagent_auto_update: 'no'
+liagent_service_manage: true 
+liagent_service_ensure: true
+liagent_service_enable: true
+liagent_service_name: liagentd
+liagent_service_provider: None
+liagent_package_manage: true
+liagent_package: 'VMware-Log-Insight-Agent'
+liagent_version: None

@@ -1,0 +1,6 @@
+---
+liagent_config_file: '/var/lib/loginsight-agent/liagent.ini'
+liagent_logtype: 'syslog'
+liagent_directory: '/var/log'
+liagent_include: 'include=messages;messages.?;syslog;syslog.?'
+liagent_package_type: 'rpm'
