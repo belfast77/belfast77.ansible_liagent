@@ -325,7 +325,7 @@ CentOS: 6, 7
 
 Currently tested manually on Centos 7, but will eventually add automated testing and are targeting compatibility with other platforms.
 
-Tested with ansible 2.5.1
+Tested with ansible 2.7.8
 
 ## VMware Tutorial Videos
 
