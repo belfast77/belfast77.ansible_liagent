@@ -1,0 +1,10 @@
+---
+liagent_root_group: root
+liagent_config_file: '/var/lib/loginsight-agent/liagent.ini'
+liagent_logtype: 'syslog'
+liagent_directory: '/var/log'
+liagent_include: 'messages;messages.?;syslog;syslog.?'
+liagent_package_type: 'rpm'
+liagent_service_name: 'liagentd'
+liagent_package: 'VMware-Log-Insight-Agent'
+liagent_package_url: 'http://dev-box/agent-packages/VMware-Log-Insight-Agent-4.7.0-9602262.noarch_192.168.0.77.rpm'

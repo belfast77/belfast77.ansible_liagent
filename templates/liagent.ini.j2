@@ -49,8 +49,8 @@ ssl={{ liagent_ssl }}
 
 ; Uncomment the appropriate section to collect system logs
 ; The recommended way is to enable the Linux content pack from LI server
-[filelog|{  liagent_logtype }}]
-directory={  liagent_directory }}
+[filelog|{{ liagent_logtype }}]
+directory={{ liagent_directory }}
 include={{ liagent_include }}
 
 [update]

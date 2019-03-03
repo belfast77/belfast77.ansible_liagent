@@ -1,2 +1,3 @@
 ---
 # vars file for belfast77.liagent
+liagent_srv_hostname: loginsight.localdomain
